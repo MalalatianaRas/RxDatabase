@@ -30,9 +30,9 @@ namespace RxDatabase.Application_functions
     public partial class ExitAUT : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the global::RxDatabase.RxDatabaseRepository repository.
+        /// Holds an instance of the RxDatabase.RxDatabaseRepository repository.
         /// </summary>
-        public static global::RxDatabase.RxDatabaseRepository repo = global::RxDatabase.RxDatabaseRepository.Instance;
+        public static RxDatabase.RxDatabaseRepository repo = RxDatabase.RxDatabaseRepository.Instance;
 
         static ExitAUT instance = new ExitAUT();
 
@@ -58,7 +58,7 @@ namespace RxDatabase.Application_functions
         /// <summary>
         /// Starts the replay of the static recording <see cref="Instance"/>.
         /// </summary>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.0")]
         public static void Start()
         {
             TestModuleRunner.Run(Instance);
@@ -70,7 +70,7 @@ namespace RxDatabase.Application_functions
         /// <remarks>You should not call this method directly, instead pass the module
         /// instance to the <see cref="TestModuleRunner.Run(ITestModule)"/> method
         /// that will in turn invoke this method.</remarks>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.0")]
         void ITestModule.Run()
         {
             Mouse.DefaultMoveTime = 300;

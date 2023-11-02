@@ -4,6 +4,9 @@ embeddedrepository="False"
 id="3403f9fd-88eb-4d86-8637-223b8e6aae26"
 mode="Desktop"
 rxversion="8.0">
+	<name>
+		ValidateEntries
+	</name>
 	<repeatcount>
 		1
 	</repeatcount>

@@ -4,6 +4,9 @@ embeddedrepository="False"
 id="d7d4bacf-bec1-4321-8382-e30821ecf24f"
 mode="Desktop"
 rxversion="8.0">
+	<name>
+		ExitAUT
+	</name>
 	<repeatcount>
 		1
 	</repeatcount>

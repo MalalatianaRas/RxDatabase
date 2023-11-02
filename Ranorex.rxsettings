@@ -1,29 +1,17 @@
 ﻿<configuration
-rxversion="9.2">
+rxversion="8.0">
 	<adapter.defaultsearchtimeout>
 		10000ms
 	</adapter.defaultsearchtimeout>
 	<adapter.defaultuseensurevisible>
 		True
 	</adapter.defaultuseensurevisible>
-	<adapter.functionexecutiontimeout>
-		5000ms
-	</adapter.functionexecutiontimeout>
 	<imaging.defaultfindoptions>
 		1;None;0,0,0,0;True;10000000;0ms
 	</imaging.defaultfindoptions>
 	<imaging.usehiddenimagecapture>
 		True
 	</imaging.usehiddenimagecapture>
-	<validate.defaultoptions>
-		True;Failure;Success;Never;Never;Never;OnFail;3000ms
-	</validate.defaultoptions>
-	<input.enableimehookkey>
-		False
-	</input.enableimehookkey>
-	<keyboard.presssequencepredelay>
-		150ms
-	</keyboard.presssequencepredelay>
 	<pointer.checkisvalidlocation>
 		True
 	</pointer.checkisvalidlocation>
@@ -54,9 +42,6 @@ rxversion="9.2">
 	<recorder.keysequencesplittime>
 		1000ms
 	</recorder.keysequencesplittime>
-	<report.ShowInvisibleCharactersKey>
-		True
-	</report.ShowInvisibleCharactersKey>
 	<repository.appfoldertimeout>
 		30000ms
 	</repository.appfoldertimeout>
@@ -69,9 +54,6 @@ rxversion="9.2">
 	<repository.useappfoldercache>
 		True
 	</repository.useappfoldercache>
-	<repository.variablestoredaction>
-		None
-	</repository.variablestoredaction>
 	<repository.autogeneratefolders>
 		True
 	</repository.autogeneratefolders>
@@ -436,42 +418,9 @@ rxversion="9.2">
 	<TestCase.Retry.ShowWarning>
 		True
 	</TestCase.Retry.ShowWarning>
-	<Testing.Data.ExcelDataLoadingPreference>
-		PreferExcel
-	</Testing.Data.ExcelDataLoadingPreference>
 	<TestExecution.CopyRuntimeToOutput>
 		False
 	</TestExecution.CopyRuntimeToOutput>
-	<vbcodegenconfig.generate.root.namespace>
-		True
-	</vbcodegenconfig.generate.root.namespace>
-	<TestExecution.RemoteAgentOptimizations>
-		ReuseDirectoryForExecution, DetectChangesOnUpload
-	</TestExecution.RemoteAgentOptimizations>
-	<perftracing.tracers>
-		None
-	</perftracing.tracers>
-	<perftracing.directory>
-		%MyDocuments%\Ranorex\TraceLogs
-	</perftracing.directory>
-	<mouse.interpolation.mode>
-		Optimized
-	</mouse.interpolation.mode>
-	<mouse.disableonaction>
-		True
-	</mouse.disableonaction>
-	<keyboard.sequence.focusretries>
-		5
-	</keyboard.sequence.focusretries>
-	<keyboard.sequence.focusinterval>
-		20
-	</keyboard.sequence.focusinterval>
-	<recorder.focusresolving.Enabled>
-		True
-	</recorder.focusresolving.Enabled>
-	<recorder.focusresolving.TopLevelFallbackEnabled>
-		True
-	</recorder.focusresolving.TopLevelFallbackEnabled>
 	<plugins.win32.EnableBasicDelphiSupport>
 		True
 	</plugins.win32.EnableBasicDelphiSupport>
@@ -483,11 +432,6 @@ rxversion="9.2">
 	</plugins.win32.EnableDynamicMsaa>
 	<plugins.win32.ProcessWhitelist>
 	</plugins.win32.ProcessWhitelist>
-	<plugins.win32.ProcessBlacklist>
-	</plugins.win32.ProcessBlacklist>
-	<plugin.delphi.enabled>
-		True
-	</plugin.delphi.enabled>
 	<plugins.msaa.FilterEnabled>
 		True
 	</plugins.msaa.FilterEnabled>
@@ -506,18 +450,6 @@ rxversion="9.2">
 	<plugins.web.EnableEmbeddedWebDocuments>
 		True
 	</plugins.web.EnableEmbeddedWebDocuments>
-	<plugins.web.EnableJsAcceleration>
-		True
-	</plugins.web.EnableJsAcceleration>
-	<plugins.web.EnableIeAddon>
-		True
-	</plugins.web.EnableIeAddon>
-	<plugins.web.DynamicIdDetection>
-		True
-	</plugins.web.DynamicIdDetection>
-	<plugins.web.EnableRxPathJs>
-		True
-	</plugins.web.EnableRxPathJs>
 	<plugins.wpfnative.enablewpfdebug>
 		False
 	</plugins.wpfnative.enablewpfdebug>
@@ -558,28 +490,6 @@ rxversion="9.2">
 	</plugins.wpfnative.tree.skipanddescend>
 	<plugins.wpfnative.flags>
 	</plugins.wpfnative.flags>
-	<plugins.wpfcore.enablewpfdebug>
-		False
-	</plugins.wpfcore.enablewpfdebug>
-	<plugins.wpfcore.enablewpfcore>
-		True
-	</plugins.wpfcore.enablewpfcore>
-	<plugins.wpfcore.proc.ignorelist>
-	</plugins.wpfcore.proc.ignorelist>
-	<plugins.wpfcore.item.filter.attributes.prefixlist>
-		AreAnyTouches;IsKeyboard;IsMouse;IsStylus;IsFocused;IsVisible;IsEnabled;Ranorex;
-	</plugins.wpfcore.item.filter.attributes.prefixlist>
-	<plugins.wpfcore.attributes.allow>
-		System.Windows.Controls.TextBox|SelectionStart;System.Windows.Controls.TextBox|SelectionLength;
-	</plugins.wpfcore.attributes.allow>
-	<plugins.wpfcore.tree.showall>
-		False
-	</plugins.wpfcore.tree.showall>
-	<plugins.wpfcore.tree.realizedvirtualizeditems>
-		False
-	</plugins.wpfcore.tree.realizedvirtualizeditems>
-	<plugins.wpfcore.flags>
-	</plugins.wpfcore.flags>
 	<plugins.wpf.ExpensiveAttributesEnabled>
 		True
 	</plugins.wpf.ExpensiveAttributesEnabled>
@@ -598,15 +508,6 @@ rxversion="9.2">
 	<plugins.wpf.EnableWinAppFrameFiltering>
 		True
 	</plugins.wpf.EnableWinAppFrameFiltering>
-	<plugins.uia.SubscribeToFocusChangedEvent>
-		False
-	</plugins.uia.SubscribeToFocusChangedEvent>
-	<plugin.rawtext.captureansi>
-		True
-	</plugin.rawtext.captureansi>
-	<plugin.rawtext.includetextinrectcomparison>
-		False
-	</plugin.rawtext.includetextinrectcomparison>
 	<plugins.java.classnames>
 	</plugins.java.classnames>
 	<plugins.java.swtlegacymode>
@@ -618,9 +519,6 @@ rxversion="9.2">
 	<plugins.java.fxfilter>
 		True
 	</plugins.java.fxfilter>
-	<plugins.java.refreshwindow>
-		False
-	</plugins.java.refreshwindow>
 	<plugins.qt.legacymode>
 		False
 	</plugins.qt.legacymode>
@@ -660,9 +558,6 @@ rxversion="9.2">
 	<plugin.cef.processblacklist>
 		spotify;chrome;
 	</plugin.cef.processblacklist>
-	<plugin.cef.forcehwndrectangle>
-		False
-	</plugin.cef.forcehwndrectangle>
 	<plugin.cef.wpffulltypewhitelist>
 	</plugin.cef.wpffulltypewhitelist>
 	<plugin.cef.enabledebugcapability>
@@ -689,4 +584,9 @@ rxversion="9.2">
 	<plugin.webdriver.screenshotUpdate>
 		False
 	</plugin.webdriver.screenshotUpdate>
+	<plugins.win32.ProcessBlacklist>
+	</plugins.win32.ProcessBlacklist>
+	<plugin.cef.forcehwndrectangle>
+		False
+	</plugin.cef.forcehwndrectangle>
 </configuration>

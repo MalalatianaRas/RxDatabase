@@ -3,90 +3,29 @@
 rxversion="8.0">
 	<testsuiteentryhierarchy>
 		<flatlistofchildren>
-			<testmodule
-			id="101dd480-7523-44d9-8058-25c817a87023"
-			name="StartAUT"
-			ref="434dc11e-1802-449b-b445-25e194b0ff6c"
-			type="Recording">
-			</testmodule>
 			<testcase
 			id="19803715-0124-454f-a8ea-4fe9f45f3c0f"
-			name="SimpleDatabase">
+			name="TestCase">
 			</testcase>
 			<testcase
 			id="212c184f-6f1c-4a06-b2e2-451613c7037a"
 			name="RxDatabase"
 			reportlevel="Info;20">
 			</testcase>
-			<testmodule
-			id="318f9ba4-8c77-4e3d-8b57-bb29976b8602"
-			name="ValidateEntries"
-			ref="3403f9fd-88eb-4d86-8637-223b8e6aae26"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="384740bc-c538-4d14-8c0f-d5cb3cc978a8"
-			name="InsertAge"
-			ref="163ce2f5-351a-4796-9548-ff58210bf2d3"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="574b63f0-250a-46d6-8ea7-81fcd4244340"
-			name="InsertName"
-			ref="5dbc6118-c253-45cd-9662-b2b1649e6373"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="5c8224ff-0435-41ee-af24-898f0efb0a0b"
-			name="SelectGender"
-			ref="c4abdbe1-0e33-4921-8119-48dccfb05c72"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="807de088-de09-4a87-9a08-c4a132e8f731"
-			name="SelectDepartment"
-			ref="9ee2fa61-dc2e-4322-8561-486a5e90f6ec"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="97febe7d-0780-42ce-a699-12dc1eb76a1b"
-			name="AddEntry"
-			ref="f6ee8e43-c6db-4b07-8b70-cfbc0c85a5e5"
-			type="Recording">
-			</testmodule>
-			<setup
-			id="9de87944-2ac3-419d-b81d-96c1b6cfd27b"
-			name="setup">
-			</setup>
-			<testcase
-			id="9efa8114-c449-4769-8d4d-5f605cf8890a"
-			name="Fermeture">
-			</testcase>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
 			TracingScreenshotMode="Foreground"
 			TracingScreenshotQuality="40"
-			VideoBitrate="2000"
-			VideoFps="15"
-			VideoRecordingMode="Off"
-			VideoSource="Auto"
 			enabletracingscreenshots="True"
 			id="db8e13f7-37a8-4a6e-9aaf-9d6cc534fb9f"
-			junitreport="False"
 			name="RxDatabase"
+			placescreenshotsinfolder="True"
 			reportcompress="False"
-			reportdirectoryname=""
-			reportenabled="True"
 			reportfilename="%S_%Y%M%D_%T.rxlog"
 			reporttemplatefolder=""
-			reportwriteinterval="30000ms">
+			reportwriteinterval="30000ms"
+			showinvisiblechars="True">
 			</testsuite>
-			<testmodule
-			id="eba87a54-99f6-4b6b-8165-3d9aef44c048"
-			name="ExitAUT"
-			ref="d7d4bacf-bec1-4321-8382-e30821ecf24f"
-			type="Recording">
-			</testmodule>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
@@ -95,49 +34,9 @@ rxversion="8.0">
 				<testcase
 				id="212c184f-6f1c-4a06-b2e2-451613c7037a"
 				name="RxDatabase">
-					<setup
-					id="9de87944-2ac3-419d-b81d-96c1b6cfd27b"
-					name="setup">
-						<testmodule
-						id="101dd480-7523-44d9-8058-25c817a87023"
-						name="StartAUT">
-						</testmodule>
-					</setup>
 					<testcase
 					id="19803715-0124-454f-a8ea-4fe9f45f3c0f"
-					name="SimpleDatabase">
-						<testmodule
-						id="574b63f0-250a-46d6-8ea7-81fcd4244340"
-						name="InsertName">
-						</testmodule>
-						<testmodule
-						id="807de088-de09-4a87-9a08-c4a132e8f731"
-						name="SelectDepartment">
-						</testmodule>
-						<testmodule
-						id="384740bc-c538-4d14-8c0f-d5cb3cc978a8"
-						name="InsertAge">
-						</testmodule>
-						<testmodule
-						id="5c8224ff-0435-41ee-af24-898f0efb0a0b"
-						name="SelectGender">
-						</testmodule>
-						<testmodule
-						id="97febe7d-0780-42ce-a699-12dc1eb76a1b"
-						name="AddEntry">
-						</testmodule>
-						<testmodule
-						id="318f9ba4-8c77-4e3d-8b57-bb29976b8602"
-						name="ValidateEntries">
-						</testmodule>
-					</testcase>
-					<testcase
-					id="9efa8114-c449-4769-8d4d-5f605cf8890a"
-					name="Fermeture">
-						<testmodule
-						id="eba87a54-99f6-4b6b-8165-3d9aef44c048"
-						name="ExitAUT">
-						</testmodule>
+					name="TestCase">
 					</testcase>
 				</testcase>
 			</testsuite>
@@ -155,11 +54,11 @@ rxversion="8.0">
 			<testcontainer
 			id="212c184f-6f1c-4a06-b2e2-451613c7037a">
 			</testcontainer>
-			<testcontainer
-			id="9efa8114-c449-4769-8d4d-5f605cf8890a">
-			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>
 	<references>
+		<reference>
+			C:\Program Files (x86)\Ranorex 8.0\Bin\Ranorex.Bootstrapper.dll
+		</reference>
 	</references>
 </testsuitedoc>
