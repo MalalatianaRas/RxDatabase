@@ -30,9 +30,9 @@ namespace RxDatabase.Application_functions
     public partial class StartAUT : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the RxDatabase.RxDatabaseRepository repository.
+        /// Holds an instance of the global::RxDatabase.RxDatabaseRepository repository.
         /// </summary>
-        public static RxDatabase.RxDatabaseRepository repo = RxDatabase.RxDatabaseRepository.Instance;
+        public static global::RxDatabase.RxDatabaseRepository repo = global::RxDatabase.RxDatabaseRepository.Instance;
 
         static StartAUT instance = new StartAUT();
 
@@ -58,7 +58,7 @@ namespace RxDatabase.Application_functions
         /// <summary>
         /// Starts the replay of the static recording <see cref="Instance"/>.
         /// </summary>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.0")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
         public static void Start()
         {
             TestModuleRunner.Run(Instance);
@@ -70,7 +70,7 @@ namespace RxDatabase.Application_functions
         /// <remarks>You should not call this method directly, instead pass the module
         /// instance to the <see cref="TestModuleRunner.Run(ITestModule)"/> method
         /// that will in turn invoke this method.</remarks>
-        [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.0")]
+        [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
         void ITestModule.Run()
         {
             Mouse.DefaultMoveTime = 300;
@@ -79,7 +79,7 @@ namespace RxDatabase.Application_functions
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Run application '../RxDemoApp.exe' with arguments '' in normal mode.", new RecordItemIndex(0));
+            Report.Log(ReportLevel.Info, "Application", "Run application '../RxDemoApp.exe' in normal mode.", new RecordItemIndex(0));
             Host.Local.RunApplication("../RxDemoApp.exe", "", "../", false);
             Delay.Milliseconds(0);
             

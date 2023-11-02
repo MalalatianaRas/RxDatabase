@@ -4,9 +4,6 @@ embeddedrepository="False"
 id="c4abdbe1-0e33-4921-8119-48dccfb05c72"
 mode="Desktop"
 rxversion="8.0">
-	<name>
-		SelectGender
-	</name>
 	<repeatcount>
 		1
 	</repeatcount>

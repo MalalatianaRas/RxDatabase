@@ -22,7 +22,7 @@ namespace RxDatabase
     /// <summary>
     /// The class representing the RxDatabaseRepository element repository.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.0")]
+    [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
     [RepositoryFolder("7ed330c8-5668-4cfa-9ca9-402c4c23b7e2")]
     public partial class RxDatabaseRepository : RepoGenBaseFolder
     {
@@ -87,7 +87,7 @@ namespace RxDatabase
     /// <summary>
     /// Inner folder classes.
     /// </summary>
-    [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.0")]
+    [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
     public partial class RxDatabaseRepositoryFolders
     {
         /// <summary>

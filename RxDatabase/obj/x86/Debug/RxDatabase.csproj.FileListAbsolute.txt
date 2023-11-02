@@ -1,0 +1,9 @@
+E:\MALALATIANA\IBONIA\MyProject\RxDatabase\RxDatabase\RxDatabase\bin\Debug\RxDatabase.rxtmg
+E:\MALALATIANA\IBONIA\MyProject\RxDatabase\RxDatabase\RxDatabase\bin\Debug\RxDatabase.rxtst
+E:\MALALATIANA\IBONIA\MyProject\RxDatabase\RxDatabase\RxDatabase\bin\Debug\RxDatabase.exe.config
+E:\MALALATIANA\IBONIA\MyProject\RxDatabase\RxDatabase\RxDatabase\bin\Debug\RxDatabase.exe
+E:\MALALATIANA\IBONIA\MyProject\RxDatabase\RxDatabase\RxDatabase\bin\Debug\RxDatabase.pdb
+E:\MALALATIANA\IBONIA\MyProject\RxDatabase\RxDatabase\RxDatabase\bin\Debug\Ranorex.Core.Resolver.dll
+E:\MALALATIANA\IBONIA\MyProject\RxDatabase\RxDatabase\RxDatabase\obj\x86\Debug\RxDatabase.csprojResolveAssemblyReference.cache
+E:\MALALATIANA\IBONIA\MyProject\RxDatabase\RxDatabase\RxDatabase\obj\x86\Debug\RxDatabase.exe
+E:\MALALATIANA\IBONIA\MyProject\RxDatabase\RxDatabase\RxDatabase\obj\x86\Debug\RxDatabase.pdb

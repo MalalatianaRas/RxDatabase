@@ -4,9 +4,6 @@ embeddedrepository="False"
 id="434dc11e-1802-449b-b445-25e194b0ff6c"
 mode="Desktop"
 rxversion="8.0">
-	<name>
-		StartAUT
-	</name>
 	<repeatcount>
 		1
 	</repeatcount>

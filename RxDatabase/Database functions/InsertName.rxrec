@@ -4,9 +4,6 @@ embeddedrepository="False"
 id="5dbc6118-c253-45cd-9662-b2b1649e6373"
 mode="Desktop"
 rxversion="8.0">
-	<name>
-		InsertName
-	</name>
 	<repeatcount>
 		1
 	</repeatcount>
