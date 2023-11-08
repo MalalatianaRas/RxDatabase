@@ -79,8 +79,8 @@ namespace RxDatabase.Application_functions
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Application", "Run application '../RxDemoApp.exe' in normal mode.", new RecordItemIndex(0));
-            Host.Local.RunApplication("../RxDemoApp.exe", "", "../", false);
+            Report.Log(ReportLevel.Info, "Application", "Run application 'E:\\MALALATIANA\\IBONIA\\MyProject\\RxDatabase\\RxDatabase\\RxDatabase\\RxDemoApp.exe' in normal mode.", new RecordItemIndex(0));
+            Host.Local.RunApplication("E:\\MALALATIANA\\IBONIA\\MyProject\\RxDatabase\\RxDatabase\\RxDatabase\\RxDemoApp.exe", "", "E:\\MALALATIANA\\IBONIA\\MyProject\\RxDatabase\\RxDatabase\\RxDatabase", false);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.TestDatabase' at 27;7.", repo.RxMainFrame.TestDatabaseInfo, new RecordItemIndex(1));

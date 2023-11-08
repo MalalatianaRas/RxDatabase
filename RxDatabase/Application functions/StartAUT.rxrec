@@ -35,10 +35,10 @@ rxversion="8.0">
 			<bindings>
 			</bindings>
 			<filename>
-				../RxDemoApp.exe
+				E:\MALALATIANA\IBONIA\MyProject\RxDatabase\RxDatabase\RxDatabase\RxDemoApp.exe
 			</filename>
 			<workingdir>
-				../
+				E:\MALALATIANA\IBONIA\MyProject\RxDatabase\RxDatabase\RxDatabase
 			</workingdir>
 			<args>
 			</args>
